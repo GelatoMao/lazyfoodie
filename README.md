@@ -1,4 +1,5 @@
 ### lazyfoodie 目录结构-tree
+```
 ├── README.md
 ├── config
 │   ├── env.js
@@ -59,5 +60,5 @@
 │   └── utils
 │       └── index.js
 └── yarn.lock
+```
 
-22 directories, 38 files

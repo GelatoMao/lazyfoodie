@@ -1,8 +1,8 @@
 >-lazyfoodie 项目名
->>-node_modules  依赖包
+>>-node_modules依赖包
 >>-public  
 >>-src  
->>>-api   请求数据接口 
+>>>-api请求数据接口 
 >>>-components    组件目录
 >>>>-CardList      卡片列表组件
 >>>>-Footer        底部组件

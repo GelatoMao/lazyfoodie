@@ -1,34 +1,63 @@
->-lazyfoodie 项目名
->>-node_modules依赖包
->>-public  
->>-src  
->>>-api请求数据接口 
->>>-components    组件目录
->>>>-CardList      卡片列表组件
->>>>-Footer        底部组件
->>>>-Header        头部组件
->>>>-NavLeft       左侧导航
->>>>-NavRight      右侧标签
->>>-config        菜单配置
->>>-pages         页面
->>>>-Collections   收藏页
->>>>-Detail        详情页
->>>>-Home          首页
->>>>-Search        搜索页
->>>>-NoMatch       无数据页
->>>>-。。。        其他导航页
->>>-store         redux数据管理
->>>>actionTypes  
->>>>createActions
->>>>reducers
->>>>index
->>>-utils         工具类
->>>admin.js        页面外层结构
->>>App.js          页面路由
->>>common.less     页面样式
->>>reset.css       重置样式
->>index.js        入口文件
->>config-overrides.js     antd主题设置
->>packjon.json            全局配置
->>README.md               readme文件
+.
+├── README.md
+├── config
+│   ├── env.js
+│   ├── getHttpsConfig.js
+│   ├── jest
+│   │   ├── cssTransform.js
+│   │   └── fileTransform.js
+│   ├── modules.js
+│   ├── paths.js
+│   ├── pnpTs.js
+│   ├── webpack.config.js
+│   └── webpackDevServer.config.js
+├── package.json
+├── public
+│   ├── index.html
+│   └── manifest.json
+├── scripts
+│   ├── build.js
+│   ├── start.js
+│   └── test.js
+├── src
+│   ├── App.js
+│   ├── admin.js
+│   ├── api
+│   │   └── index.js
+│   ├── common.less
+│   ├── components
+│   │   ├── CardList
+│   │   ├── Footer
+│   │   ├── Header
+│   │   ├── NavLeft
+│   │   └── NavRight
+│   ├── config
+│   │   └── menuConfig.js
+│   ├── index.js
+│   ├── pages
+│   │   ├── Collections
+│   │   ├── Detail
+│   │   ├── Home
+│   │   ├── Meat
+│   │   ├── Ordinary
+│   │   ├── Vegetables
+│   │   ├── bake.js
+│   │   ├── breakfast.js
+│   │   ├── fish.js
+│   │   ├── nomatch.js
+│   │   ├── noodles.js
+│   │   ├── search.js
+│   │   ├── soup.js
+│   │   ├── staple.js
+│   │   └── vegetarian.js
+│   ├── reset.css
+│   ├── store
+│   │   ├── actionTypes.js
+│   │   ├── createActions.js
+│   │   ├── index.js
+│   │   └── reducers.js
+│   └── utils
+│       └── index.js
+└── yarn.lock
 
+22 directories, 38 files

@@ -1,4 +1,4 @@
-.
+### lazyfoodie 目录结构-tree
 ├── README.md
 ├── config
 │   ├── env.js

@@ -1,0 +1,39 @@
+.wrap {
+  .user-header {
+    display: flex;
+    .avatar {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .user-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .info {
+    margin-left: 35px;
+    .statistic {
+      display: flex;
+      .statistic-item {
+        margin: 20px 60px 0 10px;
+      }
+    }
+  }
+
+  .collection-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ececec;
+    .card {
+      width: 180px;
+      margin: 20px 15px;
+      .ant-card-meta-description {
+        color: rgba(0, 0, 0, 0.45);
+        // overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+}
